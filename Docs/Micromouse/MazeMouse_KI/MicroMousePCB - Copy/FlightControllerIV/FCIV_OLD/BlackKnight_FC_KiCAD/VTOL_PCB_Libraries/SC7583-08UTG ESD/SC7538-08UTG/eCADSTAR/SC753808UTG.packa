@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SC7538-08UTG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-29-06:30:27)
+    (mountForm default
+        (footprintRef "SC753808UTG")
+        (spec "System")
+    )
+)

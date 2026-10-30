@@ -1,0 +1,1444 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d50986d6-4173-4a5f-8e10-6364b2ee1b34")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 91.44 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0024214a-50fc-49f4-b2f8-2ccabdf3cc66")
+	)
+	(junction
+		(at 91.44 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c09ea2-32dd-486d-baa5-cc54f204b2de")
+	)
+	(junction
+		(at 93.98 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55008a0d-73a0-4820-8524-3a993b1fcc76")
+	)
+	(junction
+		(at 91.44 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e751bf3-c8e9-4420-8837-b4ad9db272f5")
+	)
+	(junction
+		(at 49.53 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63608465-7c1c-49de-842f-e84bb01d6ffa")
+	)
+	(junction
+		(at 52.07 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c9eb2bd-9464-49ec-817a-3be7b20bc259")
+	)
+	(junction
+		(at 52.07 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70562e88-5d53-4b07-ac5a-afd3fba56f54")
+	)
+	(junction
+		(at 49.53 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82a57c3c-c226-4ef2-b428-4ddae8761da5")
+	)
+	(junction
+		(at 93.98 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb8711b1-c22e-434f-b6b7-9d2418b8885b")
+	)
+	(junction
+		(at 49.53 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0098b11-01f0-4625-a63f-03057d340ff7")
+	)
+	(junction
+		(at 93.98 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a1af4d-f6b8-4ad9-aeec-5cf87804987d")
+	)
+	(junction
+		(at 52.07 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9332376-6528-4769-9738-10c762754598")
+	)
+	(wire
+		(pts
+			(xy 49.53 81.28) (xy 49.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02bb94d9-a385-48c1-98bd-e1c6dca05bf7")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d78350-a842-4e56-91a3-ea634b405526")
+	)
+	(wire
+		(pts
+			(xy 49.53 96.52) (xy 49.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1300f782-0eef-43e1-93ff-8e3af9b28a52")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a50529-a01e-4f67-9221-2613eb6cd4f4")
+	)
+	(wire
+		(pts
+			(xy 91.44 134.62) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e80941f-51b1-42f9-a846-77f5a899fb17")
+	)
+	(wire
+		(pts
+			(xy 49.53 111.76) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f88b2e3-100f-4288-8e9d-dff8e1740681")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2370a947-ed0d-485e-a106-cd13a9cf0911")
+	)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2635d293-2760-4acb-a703-649382b9110a")
+	)
+	(wire
+		(pts
+			(xy 49.53 96.52) (xy 58.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bbeb58-d6b0-437c-99a4-b2213b7aec71")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8c7f4f-a9cc-499e-99a3-62b273a26eb6")
+	)
+	(wire
+		(pts
+			(xy 71.12 114.3) (xy 78.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcc6818-493b-43de-a1f2-576bdc0d0ad0")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 123.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398ddbc4-a435-4da2-aca6-f25d1e9cec06")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 100.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be037e2-c6b9-4499-8dfd-ed0a2333af10")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 49.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d3a578-f71d-4dab-a700-00f5a0e5a375")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aff83fb-51cc-4bff-821e-4f8748bf94d4")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516b8a2f-cec4-4b21-9f62-722b1e78a4e8")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f96625-14bb-473d-86fc-377c714ccd80")
+	)
+	(wire
+		(pts
+			(xy 49.53 81.28) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c629be-d155-4312-b58e-874e812434a9")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 91.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691b07b3-7d68-48fa-9266-b76dadb8627d")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 123.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ef49ef-2202-4fbf-b19c-5e175ef60fc5")
+	)
+	(wire
+		(pts
+			(xy 52.07 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7556c889-6e28-40c7-bdf4-44ca6166369c")
+	)
+	(wire
+		(pts
+			(xy 58.42 71.12) (xy 52.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7713e084-ca72-4f5a-b3bb-4e0e1b522de7")
+	)
+	(wire
+		(pts
+			(xy 52.07 86.36) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7877f52e-ac02-4a09-9679-bfd96db513d7")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 49.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e358aa-a5f6-44c1-b55d-6b538332a376")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 100.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e299a3b-c70b-4b8b-aa66-ad4fe0234d1a")
+	)
+	(wire
+		(pts
+			(xy 100.33 139.7) (xy 93.98 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9dc7cf-d17c-4f56-82cc-5a8d59dae9c7")
+	)
+	(wire
+		(pts
+			(xy 52.07 86.36) (xy 52.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9040e345-fafc-40ee-96f9-02bc987d59c0")
+	)
+	(wire
+		(pts
+			(xy 93.98 139.7) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d5f06b-1a07-4f04-ae7d-b2103f625fb2")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 52.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b758cc03-3456-49b6-bccc-2a3f45d551db")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76bf9a6-8544-40d3-bf06-9b97344ec526")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c694ae82-f208-4a24-8557-794ea0aa064a")
+	)
+	(wire
+		(pts
+			(xy 113.03 137.16) (xy 123.19 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca909587-e77b-4054-a92b-8b743790461f")
+	)
+	(wire
+		(pts
+			(xy 100.33 66.04) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbba5352-bd44-49c5-b6ca-f52dde9eb1d2")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 49.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0b6694-2be6-492e-8ec3-845ceeae17d5")
+	)
+	(wire
+		(pts
+			(xy 52.07 101.6) (xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de426b8d-de68-4b9c-9262-1ef2eff2abc7")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6491a98-f591-44ac-8021-15d4ec1f2211")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 78.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb61b0d-03a3-4c72-81ca-1302423b52d9")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 93.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef11c684-f8fc-4403-8ff8-643b53abe55e")
+	)
+	(wire
+		(pts
+			(xy 91.44 52.07) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b3137c-780a-4700-8840-3b12793c49ff")
+	)
+	(wire
+		(pts
+			(xy 93.98 139.7) (xy 93.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ddf36d-6340-4488-8572-c2a0b6b2ec9f")
+	)
+	(hierarchical_label "RC2"
+		(shape output)
+		(at 123.19 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dd345e5-223f-4b00-b1d1-d2d2d4683777")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 91.44 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "496f70c9-36e8-4200-b98b-eb49cc9d27c3")
+	)
+	(hierarchical_label "EM1"
+		(shape input)
+		(at 78.74 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51028b38-635d-47c4-8c22-2812a8122fdd")
+	)
+	(hierarchical_label "EM2"
+		(shape input)
+		(at 78.74 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54230528-8cd7-4ea3-830d-48353745ca8d")
+	)
+	(hierarchical_label "RC1"
+		(shape output)
+		(at 123.19 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "834e218c-6ef5-4ba4-b2d5-3e1b5f6b0fd4")
+	)
+	(hierarchical_label "RC3"
+		(shape output)
+		(at 123.19 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f8ea1b9-8ece-4795-accb-9e0664a27776")
+	)
+	(hierarchical_label "EM3"
+		(shape input)
+		(at 78.74 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a634838c-e4fe-4533-b62d-74db58457ea0")
+	)
+	(hierarchical_label "EM4"
+		(shape input)
+		(at 78.74 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ade5536b-e336-45fb-b64a-85a79831f0ea")
+	)
+	(hierarchical_label "RC4"
+		(shape output)
+		(at 123.19 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af26741c-0e4b-4bc1-b66b-c97131a789eb")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 49.53 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca4b1b25-b5c5-4d7b-a74f-998432a2c4ee")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e4227c8-1a46-45f2-a06a-b96e43973364")
+		(property "Reference" "#PWR07"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a37a06ad-49df-4bbe-aafe-840bda30acc8")
+		)
+		(instances
+			(project ""
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e3df1ec-e4b7-41ec-bcd5-86b71ea34a9f")
+		(property "Reference" "#PWR06"
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d5d6a51-6bda-4a9e-bf07-39e15186a559")
+		)
+		(instances
+			(project ""
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 64.77)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "092baba6-2bd6-4580-8354-b68c04ff50b2")
+		(property "Sheetname" "Emitter_Circuit1"
+			(at 58.42 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emitter_circuit.kicad_sch"
+			(at 58.42 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE" input
+			(at 71.12 68.58 0)
+			(uuid "ec2ccbb3-7045-4857-af16-5da2ce303bfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 66.04 180)
+			(uuid "9e8c0110-7fd2-422b-adb3-556ebe5a2d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" output
+			(at 58.42 71.12 180)
+			(uuid "51cab47d-eb8a-40ea-911f-10a902b5c4db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 80.01)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "14f3e149-ecab-4d4a-a9e7-c7d6f24d8249")
+		(property "Sheetname" "Emitter_Circuit2"
+			(at 58.42 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emitter_circuit.kicad_sch"
+			(at 58.42 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE" input
+			(at 71.12 83.82 0)
+			(uuid "f3460324-ca58-4026-8358-1061bd387a8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 81.28 180)
+			(uuid "a0c5b1fe-ab31-4bc0-8296-d86c50cbecd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" output
+			(at 58.42 86.36 180)
+			(uuid "2201569e-d0cf-4f29-aa76-e41bcc80000d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 133.35)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "637e38ad-5d3f-4447-8674-57ebc160373e")
+		(property "Sheetname" "Reveiver_Circuit4"
+			(at 100.33 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "receiver_circuit.kicad_sch"
+			(at 100.33 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND" output
+			(at 100.33 139.7 180)
+			(uuid "26527223-40c8-4a7f-94d9-cc4d229e8d7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 113.03 137.16 0)
+			(uuid "c8695617-ef08-47c1-8703-2d7fff653e18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 100.33 134.62 180)
+			(uuid "1a14b1bd-8c98-45f5-84ee-e9c339a32b98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 110.49)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "6bf6291e-838a-4b89-84c7-45de1e435224")
+		(property "Sheetname" "Reveiver_Circuit3"
+			(at 100.33 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "receiver_circuit.kicad_sch"
+			(at 100.33 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND" output
+			(at 100.33 116.84 180)
+			(uuid "7711a266-ef22-48e1-81a8-c188ffbe7c97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 113.03 114.3 0)
+			(uuid "23643a49-4ce7-4d0b-93ff-975958cd04c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 100.33 111.76 180)
+			(uuid "fd66bc0b-7b1f-489b-a539-91448ca60329")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 87.63)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "99678e86-10f0-46dc-a2cb-9ea4683733f7")
+		(property "Sheetname" "Reveiver_Circuit2"
+			(at 100.33 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "receiver_circuit.kicad_sch"
+			(at 100.33 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND" output
+			(at 100.33 93.98 180)
+			(uuid "bb2fc936-77bf-4b0a-8918-803fbcd807d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 113.03 91.44 0)
+			(uuid "0e9ce01e-d4fe-494d-9d23-6bbfbf0eef6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 100.33 88.9 180)
+			(uuid "0dfe1f14-2aca-4e37-8063-466b1d7ff0bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 110.49)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "9e63e5e5-6803-43d5-91f5-8da2b3b8892e")
+		(property "Sheetname" "Emitter_Circuit4"
+			(at 58.42 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emitter_circuit.kicad_sch"
+			(at 58.42 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE" input
+			(at 71.12 114.3 0)
+			(uuid "0e25267e-260f-43f3-a564-1e8784075bdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 111.76 180)
+			(uuid "9a6df511-16db-4c8e-b538-febbd9a87099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" output
+			(at 58.42 116.84 180)
+			(uuid "c5079e5d-e9a5-4530-9677-3d8eb501cfe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 95.25)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "a4b6249e-12bc-4786-a514-74ac3ff26003")
+		(property "Sheetname" "Emitter_Circuit3"
+			(at 58.42 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emitter_circuit.kicad_sch"
+			(at 58.42 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE" input
+			(at 71.12 99.06 0)
+			(uuid "6a351148-0dc1-4dd3-9073-952aca6b19f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 58.42 96.52 180)
+			(uuid "dc4cf1a9-7acd-4001-a2a9-1c7534320e6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" output
+			(at 58.42 101.6 180)
+			(uuid "48ab0066-1078-482c-ba8a-9f8c83a7acd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 64.77)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "d5194963-a8cf-4362-b0e6-9fd0e35984a4")
+		(property "Sheetname" "Reveiver_Circuit1"
+			(at 100.33 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "receiver_circuit.kicad_sch"
+			(at 100.33 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Field2" ""
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND" output
+			(at 100.33 71.12 180)
+			(uuid "87f378f4-f0e2-4564-90d8-82f12faa725a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 113.03 68.58 0)
+			(uuid "6dc3aafe-c318-4bfc-9f7c-b9b3cbded159")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 100.33 66.04 180)
+			(uuid "147b6c65-5954-4138-89fa-d8e0b7ac2baa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MazeMouseCircuit"
+				(path "/25e9252c-57fe-4a5e-be5d-6685fe797d60/14bad313-d1f7-4e7f-aed2-99036990d1d7"
+					(page "5")
+				)
+			)
+		)
+	)
+)

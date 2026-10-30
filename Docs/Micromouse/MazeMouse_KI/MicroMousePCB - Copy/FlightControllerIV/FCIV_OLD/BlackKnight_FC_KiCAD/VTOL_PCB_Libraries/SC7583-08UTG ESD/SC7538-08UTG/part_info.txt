@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=SC7538-08UTG
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=9
+Version=1.2
+Released=2022-06-29 06:30:27
+Downloaded=2025-07-12 22:16:21
+3D=Y

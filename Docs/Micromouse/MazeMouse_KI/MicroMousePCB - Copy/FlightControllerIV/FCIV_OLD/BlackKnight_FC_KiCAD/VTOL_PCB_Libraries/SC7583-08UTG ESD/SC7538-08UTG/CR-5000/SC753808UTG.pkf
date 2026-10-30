@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SC753808UTG"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SC753808UTG")
+        (spec "default")
+    )
+)

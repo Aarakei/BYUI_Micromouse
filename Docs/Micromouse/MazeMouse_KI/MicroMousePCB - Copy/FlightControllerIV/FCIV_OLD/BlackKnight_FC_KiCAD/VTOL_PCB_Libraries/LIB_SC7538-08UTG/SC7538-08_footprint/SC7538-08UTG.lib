@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SC7538-08UTG
+#/16190320/1676459/2.50/9/3/Integrated Circuit
+DEF SC7538-08UTG IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "SC7538-08UTG" 1150 200 50 H V L CNN
+F2 "SC753808UTG" 1150 100 50 H I L CNN
+F3 "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=59382b8d-537a-4c7e-9d68-ddc6a1cc92ed&filename=littelfuse-tvs-diode-array-sc7538-08utg-datasheet" 1150 0 50 H I L CNN
+F4 "ESD Suppressors / TVS Diodes 5V 3A +30/-22kV uDFN3810-9L Diode array AEC-Q101" 1150 -100 50 H I L CNN "Description"
+F5 "0.55" 1150 -200 50 H I L CNN "Height"
+F6 "576-SC7538-08UTG" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SC7538-08UTG?qs=Li%252BoUPsLEnt7O3OzEjruww%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SC7538-08UTG" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X LINE-1 1 0 0 200 R 50 50 0 0 P
+X LINE-3 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X LINE-6 4 0 -300 200 R 50 50 0 0 P
+X LINE-8 5 0 -400 200 R 50 50 0 0 P
+X LINE-7 6 1300 -300 200 L 50 50 0 0 P
+X LINE-5 7 1300 -200 200 L 50 50 0 0 P
+X LINE-4 8 1300 -100 200 L 50 50 0 0 P
+X LINE-2 9 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

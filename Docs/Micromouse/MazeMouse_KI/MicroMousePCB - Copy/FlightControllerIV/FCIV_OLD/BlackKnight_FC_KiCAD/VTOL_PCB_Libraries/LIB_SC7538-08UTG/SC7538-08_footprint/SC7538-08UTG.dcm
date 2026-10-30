@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC7538-08UTG
+D ESD Suppressors / TVS Diodes 5V 3A +30/-22kV uDFN3810-9L Diode array AEC-Q101
+K
+F https://www.littelfuse.com/media?resourcetype=datasheets&itemid=59382b8d-537a-4c7e-9d68-ddc6a1cc92ed&filename=littelfuse-tvs-diode-array-sc7538-08utg-datasheet
+$ENDCMP
+#
+#End Doc Library

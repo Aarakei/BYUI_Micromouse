@@ -1,0 +1,16 @@
+.SC7538-08UTG :1 ;ESD Suppressors / TVS Diodes 5V 3A +30/-22kV uDFN3810-9L Diode array AEC-Q101
+SC753808UTG
+*STM IC
+*NGS
+*PLB 1="LINE-1" 2="LINE-3" 3="GND" 4="LINE-6" 5="LINE-8" 6="LINE-7" 7="LINE-5" 8="LINE-4" 9="LINE-2"
+*MXP 9
+*DFN SC7538-08UTG
+~!Mouser Part Number (576-SC7538-08UTG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SC7538-08UTG?qs=Li%252BoUPsLEnt7O3OzEjruww%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SC7538-08UTG)
+~!Link Datasheet (https://www.littelfuse.com/media?resourcetype=datasheets&itemid=59382b8d-537a-4c7e-9d68-ddc6a1cc92ed&filename=littelfuse-tvs-diode-array-sc7538-08utg-datasheet)
+~!Height (0.55mm)
+~!3D_Model (SC7538-08UTG)
+SC7538-08UTG
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

@@ -1,0 +1,32 @@
+Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Footprint	Datasheet
+C1,C2	2	2.2uF				PCM_JLCPCB:C_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A225MQ5NSNC_C12530.pdf
+C3,C4	2	10uF				PCM_JLCPCB:C_0603	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf
+C5,C6	2	10nF				PCM_JLCPCB:C_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf
+C7,C11,C15,C19	4	4.7uF				PCM_JLCPCB:C_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf
+C8,C12,C16,C20	4	100nF				PCM_JLCPCB:C_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf
+C9,C13,C17,C21	4	1nF				PCM_JLCPCB:C_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B102K500NT_C1523.pdf
+C10,C14,C18,C22	4	470pF				PCM_JLCPCB:C_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B471K500NT_C1537.pdf
+C23	1	22uF				PCM_JLCPCB:C_0603	https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf
+D1	1	BAT54AW				PCM_JLCPCB:SOT-323-3_L2.0-W1.3-P1.30-LS2.3-BR	https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406191606_hongjiacheng-BAT54AW_C22466374.pdf
+D2,D3,D4,D5	4	IR_Emitter				LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRBlack	http://www.everlight.com/file/ProductFile/IR204-A.pdf
+D6	1	SMBJ5.0CA				PCM_JLCPCB:D_SMB	https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280935_hongjiacheng-SMBJ5-0CA_C19077559.pdf
+F1	1	Polyfuse				Fuse:Fuse_0402_1005Metric	~
+J1	1	MPU-6050				Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical	~
+J2	1	TCS34725				Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical	~
+J3	1	Battery				Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical	~
+J5	1	Conn_01x03_Pin				Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	~
+MAX1,MAY1,MBX1,MBY1	4	Motor_DC				Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical	~
+Q1,Q3,Q5,Q7	4	AO3400A				PCM_JLCPCB:Q_SOT-23	https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf
+Q2,Q4,Q6,Q8	4	SFH300				LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_Clear	http://www.osram-os.com/Graphics/XPic2/00101785_0.pdf
+Q9	1	SI2301CDS-T1-GE3				PCM_JLCPCB:Q_SOT-23	https://www.lcsc.com/datasheet/lcsc_datasheet_1808272021_Vishay-Intertech-SI2301CDS-T1-GE3_C10487.pdf
+R1,R2,R3	3	4.7kΩ				PCM_JLCPCB:R_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf
+R4,R5,R6,R7	4	680Ω				PCM_JLCPCB:R_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF6800TCE_C25130.pdf
+R8,R14,R20,R26	4	100Ω				PCM_JLCPCB:R_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf
+R9,R15,R21,R27,R32	5	100kΩ				PCM_JLCPCB:R_0603	https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf
+R10,R16,R22,R28	4	51Ω				PCM_JLCPCB:R_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF510JTCE_C25125.pdf
+R11,R17,R23,R29	4	1.8kΩ				PCM_JLCPCB:R_0805	https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1801T5E_C17398.pdf
+R12,R18,R24,R30	4	5.1kΩ				PCM_JLCPCB:R_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf
+R13,R19,R25,R31	4	3.3kΩ				PCM_JLCPCB:R_0402	https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF3301TCE_C25890.pdf
+SW1	1	SW_SPST				Button_Switch_SMD:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm	~
+U1	1	ESP32-S3-DevKitC				PCM_Espressif:ESP32-S3-DevKitC-Dual-USB-C	
+U2,U3	2	DRV8833PWR				Package_SO:TSSOP-16_4.4x5mm_P0.65mm	https://www.lcsc.com/datasheet/C544801.pdf

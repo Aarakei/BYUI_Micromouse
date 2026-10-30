@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "resonator") (type "KiCad") (uri "${KIPRJMOD}/resonator/2026-06-24_20-07-27.kicad_sym") (options "") (descr ""))
+)
