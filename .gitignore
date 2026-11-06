@@ -1,0 +1,50 @@
+# ====================================================================
+# STM32CubeIDE & Eclipse Build Artifacts
+# ====================================================================
+# Ignore default and custom build directories
+Debug/
+Release/
+
+# Compiled Binaries & Output Formats
+*.elf
+*.map
+*.bin
+*.hex
+*.srec
+
+# Intermediate Object and Assembly Listings
+*.o
+*.d
+*.su
+*.lst
+
+# Static libraries and temporary compiler files
+*.a
+*.crl
+*.bak
+*.log
+
+# ====================================================================
+# IDE / Tooling / Local Preferences
+# ====================================================================
+# Eclipse/CubeIDE metadata and local settings tracking
+.metadata/
+.settings/
+
+# Local debugger and launch configurations
+*.launch
+*.jlink
+
+# ====================================================================
+# TouchGFX UI Framework (If applicable)
+# ====================================================================
+# Generated graphics assets and simulator files that rebuild locally
+TouchGFX/generated/
+TouchGFX/build/
+TouchGFX/simulator/msvs/.vs/
+
+# ====================================================================
+# Miscellaneous Local Tooling Artifacts
+# ====================================================================
+**/.assignment
+**/CMakeLayout.txt
